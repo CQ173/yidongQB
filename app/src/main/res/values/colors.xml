@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrayNine">#999999</color>
+    <color name="colorGrayF5">#f5f5f5</color>
+    <color name="colorRed07">#CE0707</color>
+    <color name="colorRed1b">#D0021B</color>
+    <color name="colorGray9A">#95989A</color>
+    <color name="colorGraySix">#666666</color>
+    <color name="colorGrayEDF">#EDF1F5</color>
+    <color name="colorGray8b">#8b8b8b</color>
+    <color name="colorGrayBG">#F4F3F8</color>
+    <color name="colorGray54">#545454</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack30">#303030</color>
+    <color name="colorBlackThree">#333333</color>
+    <color name="colorRed">#E3402F</color>
+    <color name="colorGreen">#8ECD7C</color>
+    <color name="colorGolden">#dbb76c</color>
+    <color name="color_FF1F1F">#FF1F1F</color>
+    <color name="color_E7E7E7">#E7E7E7</color>
+    <color name="color_EFF3F6">#EFF3F6</color>
+
+    <!--MD_dialog相关-->
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <color name="lite_blue">#ff359ff2</color>
+    <color name="window_background">#00000000</color>
+    <!--MD_dialog相关-->
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray_c">#ffcccccc</color>
+    <color name="gray_e">#eeeeee</color>
+    <color name="gray_9">#999999</color>
+    <color name="black">#000000</color>
+    <color name="black_3_d9">#D9333333</color>
+    <color name="black_4d">#4d4d4d</color>
+    <color name="orange">#fa723c</color>
+    <color name="green">#8ECD7C</color>
+    <color name="gray_bg">#CACACA</color>
+    <color name="color_F3F3F3">#F3F3F3</color>
+    <color name="color_F80404">#F80404</color>
+    <color name="color_F5F5F9">#F5F5F9</color>
+
+    <color name="color_FE6B6B">#FE6B6B</color>
+    <color name="color_808080">#808080</color>
+    <color name="color_FD3434">#FD3434</color>
+    <color name="color_585858">#585858</color>
+    <color name="color_101010">#101010</color>
+    <color name="color_FF5958">#FF5958</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_FB1616">#FB1616</color>
+    <color name="color_797978">#797978</color>
+    <color name="color_00C3AC">#00C3AC</color>
+</resources>

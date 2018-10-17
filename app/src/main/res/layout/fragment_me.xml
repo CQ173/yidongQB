@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:background="#F8F8F8"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@drawable/icon_bdback"
+        android:orientation="vertical"
+        android:layout_height="223dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/image_userlog"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/personal_center_icon"
+            app:riv_border_color="#1EB89C"
+            app:riv_border_width="1dp"
+            app:riv_oval="true" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100000000"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="7dp"
+        android:background="#ffffff"
+        android:id="@+id/ll_me_recharge"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="48dp">
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_personal"
+            android:layout_width="20dp"
+            android:scaleType="fitXY"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginLeft="@dimen/m10"
+            android:gravity="center|left"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="联系客服"
+            android:textColor="#898888"
+            android:textSize="16dp" />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:padding="@dimen/m14"
+            android:src="@drawable/icon_front"
+            android:layout_width="@dimen/m45"
+            android:layout_height="@dimen/m45" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_Exit_logon"
+        android:layout_marginTop="2dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="48dp">
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_sign_out"
+            android:layout_width="20dp"
+            android:scaleType="fitXY"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginLeft="@dimen/m10"
+            android:gravity="center|left"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="退出登录"
+            android:textColor="#898888"
+            android:textSize="16dp" />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:padding="@dimen/m14"
+            android:src="@drawable/icon_front"
+            android:layout_width="@dimen/m45"
+            android:layout_height="@dimen/m45" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.jbx.hjyt.view.widget.BanViewPager
+        android:id="@+id/vp_main"
+        android:layout_weight="1"
+        android:isScrollContainer="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_F3F3F3"/>
+    <LinearLayout
+        android:id="@+id/rg_weinxin_group"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:id="@+id/rb_weixin_weixin"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_a"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mainlo_image_selector"
+                />
+            <TextView
+                android:id="@+id/tv_a"
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="首页"
+                android:textSize="11dp"
+                android:textColor="@drawable/main_text_selector"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rb_weixin_contact"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_b"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bottom_loan_icon_normal"
+                />
+            <TextView
+                android:id="@+id/tv_b"
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="贷款"
+                android:textSize="11dp"
+                android:textColor="@color/color_797978"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rb_weixin_find"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_c"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bottom_personal_icon_normal"
+                />
+            <TextView
+                android:id="@+id/tv_c"
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_797978"
+                android:gravity="center"
+                android:textSize="11dp"
+                android:text="我的"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

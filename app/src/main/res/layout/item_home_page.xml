@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_fukj"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_log"
+            android:layout_marginLeft="10dp"
+            android:layout_width="65dp"
+            android:layout_centerVertical="true"
+            android:layout_height="65dp"
+            android:src="@mipmap/ic_launcher"
+            fresco:fadeDuration="300"
+            fresco:roundingBorderColor="#ccc"
+            fresco:roundingBorderWidth="2dp"
+            app:roundedCornerRadius="10dp"
+            app:roundBottomRight="true"
+            app:roundBottomLeft="true"
+            app:roundTopLeft="true"
+            app:roundTopRight="true"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/ll_nr"
+            android:layout_marginLeft="9dp"
+            android:layout_toRightOf="@+id/image_log"
+            android:layout_alignBottom="@+id/image_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/color_101010"
+                android:text="融360-急速贷款"
+                />
+
+            <TextView
+                android:id="@+id/tv_max"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:textColor="@color/color_00C3AC"
+                android:text="可贷款：10000-5000元"
+                />
+
+            <TextView
+                android:id="@+id/tv_rate"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:textColor="@color/color_666666"
+                android:text="日利率：0.0003%"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="18dp"
+            android:id="@+id/ll_right"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/image_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_Checks"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11dp"
+                    android:textColor="@color/color_00C3AC"
+                    android:text="56565"
+                    />
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11dp"
+                    android:textColor="@color/color_666666"
+                    android:text="人已申请"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11dp"
+                    android:textColor="@color/color_666666"
+                    android:text="成功率："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_success_rate"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11dp"
+                    android:textColor="@color/color_00C3AC"
+                    android:text="99%"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_Label"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_hot"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:paddingLeft="15dp"
+        android:layout_height="30dp">
+
+        <TextView
+            android:id="@+id/tv_traits"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_home_msg_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="急速下款"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
